@@ -23,7 +23,7 @@
     "babel-plugin-minify-replace": "^0.0.3",
     "babel-plugin-transform-export-default-name-forked": "^1.2.2",
     "babel-preset-flow": "^6.23.0",
-    "babel-preset-flow-runtime": "^0.1.0"
+    "babel-preset-flow-runtime": "^0.6.1"
   },
   "devDependencies": {
     "eslint": "^3.16.1",
