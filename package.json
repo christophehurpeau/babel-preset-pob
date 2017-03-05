@@ -20,14 +20,14 @@
   },
   "dependencies": {
     "babel-plugin-import-export-rename": "^1.0.1",
-    "babel-plugin-minify-replace": "^0.0.3",
+    "babel-plugin-minify-replace": "^0.0.4",
     "babel-plugin-transform-export-default-name-forked": "^1.2.2",
     "babel-preset-flow": "^6.23.0",
     "babel-preset-flow-runtime": "^0.6.1"
   },
   "devDependencies": {
-    "eslint": "^3.16.1",
-    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint": "^3.17.0",
+    "eslint-config-airbnb-base": "^11.1.1",
     "eslint-config-pob": "^11.1.0",
     "eslint-plugin-import": "^2.2.0",
     "komet": "^0.1.4",
