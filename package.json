@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-pob",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "base babel preset",
   "keywords": [
     "babel-preset"
