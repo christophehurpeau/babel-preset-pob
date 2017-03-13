@@ -1,3 +1,17 @@
+<a name="0.4.0"></a>
+# [0.4.0](https://github.com/christophehurpeau/babel-preset-pob/compare/v0.3.0...v0.4.0) (2017-03-13)
+
+
+### Features
+
+* remove plugin-flow-runtime ([8acd126](https://github.com/christophehurpeau/babel-preset-pob/commit/8acd126))
+
+
+### BREAKING CHANGES
+
+* remove plugin-flow-runtime
+
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/christophehurpeau/babel-preset-pob/compare/v0.2.0...v0.3.0) (2017-03-13)
 
