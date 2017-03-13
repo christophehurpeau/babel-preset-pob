@@ -19,7 +19,6 @@
     "version": "pob-version"
   },
   "dependencies": {
-    "babel-plugin-flow-runtime": "^0.9.1",
     "babel-plugin-import-export-rename": "^1.0.1",
     "babel-plugin-minify-replace": "^0.0.4",
     "babel-plugin-transform-export-default-name-forked": "^1.2.2",
