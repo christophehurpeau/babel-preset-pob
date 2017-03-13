@@ -1,5 +1,5 @@
 const presetFlow = require('babel-preset-flow');
-const presetFlowRuntime = require('babel-preset-flow-runtime');
+const pluginFlowRuntime = require('babel-plugin-flow-runtime');
 const pluginImportExportRename = require('babel-plugin-import-export-rename');
 const pluginTransformExportDefaultName = require('babel-plugin-transform-export-default-name-forked');
 const pluginMinifyReplace = require('babel-plugin-minify-replace');
@@ -24,7 +24,7 @@ exports.buildPreset = function (context, opts = {}) {
   return {
     presets: [
       presetFlow,
-      !production && [presetFlowRuntime, { assert: true, annotate: false }],
+      !production && { plugins: [[pluginFlowRuntime, { assert: true, annotate: false }]] },
     ].filter(Boolean),
     plugins: [
       [pluginImportExportRename, { '^([a-z\\-]+|[./]+)/src(.*)$': '$1$2' }],
