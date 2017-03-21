@@ -3,7 +3,8 @@ const pluginImportExportRename = require('babel-plugin-import-export-rename');
 const pluginTransformExportDefaultName = require('babel-plugin-transform-export-default-name-forked');
 const pluginMinifyReplace = require('babel-plugin-minify-replace');
 
-exports.buildPreset = function (context, opts = {}) {
+exports.buildPreset = function (context, opts) {
+  opts = opts || {};
   const production = opts.production !== undefined ? opts.production : (process.env.NODE_ENV === 'production');
   if (typeof production !== 'boolean') throw new Error('Preset pob \'production\' option must be a boolean.');
 
