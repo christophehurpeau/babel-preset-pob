@@ -1,3 +1,7 @@
+/* eslint-disable strict */
+
+'use strict';
+
 const presetFlow = require('babel-preset-flow');
 const pluginImportExportRename = require('babel-plugin-import-export-rename');
 const pluginTransformExportDefaultName = require('babel-plugin-transform-export-default-name-forked');
