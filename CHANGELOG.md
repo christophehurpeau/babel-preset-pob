@@ -1,3 +1,12 @@
+<a name="0.4.3"></a>
+## [0.4.3](https://github.com/christophehurpeau/babel-preset-pob/compare/v0.4.2...v0.4.3) (2017-03-21)
+
+
+### Bug Fixes
+
+* support node 4 ([9c4d438](https://github.com/christophehurpeau/babel-preset-pob/commit/9c4d438))
+
+
 <a name="0.4.2"></a>
 ## [0.4.2](https://github.com/christophehurpeau/babel-preset-pob/compare/v0.4.1...v0.4.2) (2017-03-21)
 
