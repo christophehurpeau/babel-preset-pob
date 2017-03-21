@@ -8,6 +8,7 @@ const pluginTransformExportDefaultName = require('babel-plugin-transform-export-
 const pluginMinifyReplace = require('babel-plugin-minify-replace');
 
 exports.buildPreset = function (context, opts) {
+  // `|| {}` to support node 4
   opts = opts || {};
   const production = opts.production !== undefined ? opts.production : (process.env.NODE_ENV === 'production');
   if (typeof production !== 'boolean') throw new Error('Preset pob \'production\' option must be a boolean.');
@@ -16,7 +17,8 @@ exports.buildPreset = function (context, opts) {
   if (typeof replacements !== 'object') throw new Error('Preset pob \'replacements\' option must be an object.');
 
   const keys = Object.keys(replacements);
-  if (keys.includes('PRODUCTION')) throw new Error('Preset pob \'replacements.production\' is reserved. Use option \'production\' if you want to change it.');
+  // use indexOf to support node 4
+  if (keys.indexOf('PRODUCTION') !== -1) throw new Error('Preset pob \'replacements.production\' is reserved. Use option \'production\' if you want to change it.');
   keys.forEach((key) => {
     if (key.toUpperCase() !== key) console.warn('warning: replacement key should be in uppercase.');
     if (typeof replacements[key] !== 'boolean') throw new Error(`Preset pob 'replacements.${key}' option must be a boolean.`);
