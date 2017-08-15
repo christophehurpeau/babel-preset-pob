@@ -1,3 +1,14 @@
+<a name="0.5.0"></a>
+# [0.5.0](https://github.com/christophehurpeau/babel-preset-pob/compare/v0.4.3...v0.5.0) (2017-08-15)
+
+
+### Features
+
+* option exportDefaultName ([51a3d43](https://github.com/christophehurpeau/babel-preset-pob/commit/51a3d43))
+* remove eslint-plugin-flowtype ([49caffd](https://github.com/christophehurpeau/babel-preset-pob/commit/49caffd))
+* update dependencies ([465a9f7](https://github.com/christophehurpeau/babel-preset-pob/commit/465a9f7))
+
+
 <a name="0.4.3"></a>
 ## [0.4.3](https://github.com/christophehurpeau/babel-preset-pob/compare/v0.4.2...v0.4.3) (2017-03-21)
 
