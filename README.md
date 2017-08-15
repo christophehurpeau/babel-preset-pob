@@ -8,6 +8,7 @@ base babel preset
 ## Options
 
 - production: `true` | `false` (default: process.env.NODE_ENV === 'production')
+- exportDefaultName: `true` | `false` (default: !production)
 - replacements: { `[key]`: `true` | `false` }. Always add { PRODUCTION: production }. Key should be uppercase.
 
 ## Content
