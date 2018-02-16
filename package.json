@@ -9,10 +9,13 @@
   "license": "ISC",
   "repository": "git@github.com:christophehurpeau/babel-preset-pob.git",
   "homepage": "https://github.com/christophehurpeau/babel-preset-pob",
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "main": "./lib/index.js",
   "scripts": {
     "clean": "rm -Rf docs dist test/node6 coverage",
-    "lint": "eslint --ext .js,.jsx lib/",
+    "lint": "eslint lib/",
     "postcheckout": "./.git-hooks/post-checkout",
     "postmerge": "./.git-hooks/post-merge",
     "precommit": "./.git-hooks/pre-commit",
@@ -26,34 +29,33 @@
       "prettier --write",
       "git add"
     ],
-    "src/**/*.json": [
+    "lib/**/*.json": [
       "prettier --write",
       "git add"
     ],
-    "src/**/*.{js,jsx}": [
+    "lib/**/*.js": [
       "eslint --fix --quiet",
       "git add"
     ]
   },
   "dependencies": {
     "babel-plugin-import-export-rename": "^1.0.1",
-    "babel-plugin-minify-replace": "^0.2.0",
+    "babel-plugin-minify-replace": "^0.3.0",
     "babel-plugin-transform-export-default-name-forked": "^1.2.2",
     "babel-preset-flow": "^6.23.0"
   },
   "devDependencies": {
-    "eslint": "^4.11.0",
+    "eslint": "4.17.0",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-pob": "^17.0.0",
-    "eslint-config-prettier": "^2.8.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-config-pob": "^17.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-prettier": "^2.6.0",
     "husky": "^0.14.3",
     "komet": "^0.1.4",
     "komet-karma": "^0.2.5",
-    "lint-staged": "^5.0.0",
+    "lint-staged": "^6.1.0",
     "pob-release": "^3.1.0",
-    "prettier": "^1.8.2"
+    "prettier": "^1.10.2"
   }
 }
