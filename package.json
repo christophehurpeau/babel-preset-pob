@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "babel-plugin-import-export-rename": "^1.0.1",
-    "babel-plugin-minify-replace": "^0.3.0",
+    "babel-plugin-minify-replace": "^0.4.2",
     "babel-plugin-transform-export-default-name-forked": "^1.2.2",
     "babel-preset-flow": "^6.23.0"
   },
