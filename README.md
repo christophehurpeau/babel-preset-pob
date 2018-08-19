@@ -1,5 +1,7 @@
 # babel-preset-pob [![NPM version][npm-image]][npm-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/christophehurpeau/babel-preset-pob.svg)](https://greenkeeper.io/)
+
 base babel preset
 
 [![Dependency Status][daviddm-image]][daviddm-url]
