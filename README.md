@@ -1,3 +1,7 @@
+# Migrated to [pob](https://github.com/christophehurpeau/pob)
+
+https://github.com/christophehurpeau/pob/tree/main/packages/babel-preset-pob-env
+
 # babel-preset-pob [![NPM version][npm-image]][npm-url]
 
 base babel preset
